@@ -1,18 +1,33 @@
-## Getting Started
+**Flappy Bird Game**
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This is a clone of the popular Flappy Bird game, built using Java AWT/Swing. The game features a simple, yet addictive gameplay mechanic where the player controls a bird that must navigate through obstacles by tapping to fly.
 
-## Folder Structure
+**Features**
+Classic Flappy Bird gameplay: Tap to make the bird fly.
 
-The workspace contains two folders by default, where:
+Obstacles (pipes) that move from right to left.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Score counter that increases as you pass pipes.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Collision detection for both bird and pipes.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+**Technologies Used**
+Java AWT/Swing: For creating the graphical user interface (GUI).
 
-## Dependency Management
+Object-Oriented Programming (OOP): To structure the game logically and allow easy maintenance and expansion.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Event-Driven Programming: The game uses events such as mouse clicks (or keypresses) to control the bird's movement.
+
+Installation
+To run the game locally, follow these steps:
+
+Clone this repository: git clone https://github.com/yourusername/flappy-bird.git
+Navigate into the project directory: cd flappy-bird
+Compile the Java files (if you have javac installed): javac FlappyBird.java
+Run the game: java FlappyBird
+
+**Gameplay**
+
+Tap (or press space) to make the bird fly.
+The objective is to navigate the bird through the pipes without hitting them.
+Try to achieve the highest score by passing through as many pipes as possible.
