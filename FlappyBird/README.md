@@ -21,7 +21,7 @@ Event-Driven Programming: The game uses events such as mouse clicks (or keypress
 Installation
 To run the game locally, follow these steps:
 
-Clone this repository: git clone https://github.com/yourusername/flappy-bird.git
+Clone this repository: git clone https://github.com/prachimehar/Flappy-Bird-Game
 Navigate into the project directory: cd flappy-bird
 Compile the Java files (if you have javac installed): javac FlappyBird.java
 Run the game: java FlappyBird
