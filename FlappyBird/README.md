@@ -1,8 +1,8 @@
-**Flappy Bird Game**
+# Flappy Bird Game
 
 This is a clone of the popular Flappy Bird game, built using Java AWT/Swing. The game features a simple, yet addictive gameplay mechanic where the player controls a bird that must navigate through obstacles by tapping to fly.
 
-**Features**
+# Features
 
 Classic Flappy Bird gameplay: Tap to make the bird fly.
 
@@ -12,7 +12,7 @@ Score counter that increases as you pass pipes.
 
 Collision detection for both bird and pipes.
 
-**Technologies Used**
+# Technologies Used
 
 Java AWT/Swing: For creating the graphical user interface (GUI).
 
@@ -20,7 +20,7 @@ Object-Oriented Programming (OOP): To structure the game logically and allow eas
 
 Event-Driven Programming: The game uses events such as mouse clicks (or keypresses) to control the bird's movement.
 
-**Installation**
+# Installation
 
 To run the game locally, follow these steps:
 
@@ -32,7 +32,7 @@ Compile the Java files (if you have javac installed): javac FlappyBird.java
 
 Run the game: java FlappyBird
 
-**Gameplay**
+# Gameplay
 
 Tap (or press space) to make the bird fly.
 The objective is to navigate the bird through the pipes without hitting them.
